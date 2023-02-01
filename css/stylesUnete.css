@@ -1,0 +1,575 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*height: 100vh;*/
+    display: flex;
+    justify-content: space-evenly;
+
+    /*justify-content:space-around;*/
+    align-items: center;
+    background:#F4F6F7;
+    
+
+
+    
+}
+.menu{
+    margin:auto;
+    
+    display:flex; /* ponemos elementos un al lado del otro*/
+    justify-content: space-evenly;
+    padding: 2em;
+    font-size: 1.5em;
+    
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    line-height: 3ex;
+}
+.menu ul{
+    
+    
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px 20px;
+    letter-spacing: 0.03em;
+    
+    letter-spacing: 1.0;
+    color: #2d2d2d;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-family: Verdana, sans-serif;
+    /*box-sizing: border-box;*/
+    /*display: block;*/
+    
+    border: 0;
+    vertical-align: baseline;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    table-layout: fixed;
+    height: auto;
+
+    padding-bottom: 2px;
+    line-height: 3ex;
+}
+.menu ul li{
+    padding: 10px 25px;
+    padding-bottom: 2px;
+    line-height: 3ex;
+    justify-content: space-evenly;
+    float:left;
+       
+    
+}
+.list_item{
+   display: inline-block;
+   list-style: none;
+}
+.link{
+   padding: 10px;
+   color:#2d2d2d;
+   position: relative;
+}
+.link:after{
+   content: "";
+   width: 0;
+   height: 4px;
+    background-color: #2d2d2d;
+    position: absolute;
+    bottom: 0;
+    right: 50%; 
+    transition: all .5s;
+    will-change: width;
+
+}
+.link:hover::after{
+   width: 100%;
+   right: 0;
+}
+
+
+.menu ul a{
+   text-decoration: none;
+   
+}
+
+ .card-wrapper{
+    width: 100%;
+    Display: Flex;
+   
+
+    list-style: none;
+    
+    
+    place-content: center;
+    justify-items: center;
+  
+     margin:0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-size: cover;
+ }
+ 
+ .card{
+    margin: 0;
+    width: 390px;
+    height: 470px;
+    margin: 70px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff ;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+    transition: all 400ms ease;
+    padding: 0%;
+    
+
+ }
+ .card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    transform: translateY(-3%);
+ }
+ 
+ .card img{
+    width: 390px;
+    height: 290px;
+ }
+ .card h3{
+    padding: 0 1rem;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+ }
+ .card a{
+    text-decoration: none;
+ }
+ .card button{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background: chocolate;
+    border-radius: 5px;
+    width: 108px;
+    height: 40px;
+    color: #fff;
+    
+ }
+ 
+ .title2{
+    margin: auto;
+    align-items:flex-start;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 0;
+ }
+
+ .card-wrapper2{
+    width: 100%;
+    display: flex;
+   align-items: center;
+    list-style: none;   
+    justify-items: center;
+     margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-size: cover;
+ }
+ 
+ .card2{
+    width: 390px;
+    height: 370px;
+    margin: 70px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff ;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+    transition: all 400ms ease;
+    padding: 0%;
+    
+}
+.card2 h1{
+    padding: 0 1rem;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.card p{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+ .card2 h3{
+    padding: 0 1rem;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+ }
+.card2 a{
+    text-decoration: none;
+    
+}
+ .card2 button{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background: chocolate;
+    border-radius: 5px;
+    width: 208px;
+    height: 40px;
+    color: #fff;
+    
+ }
+
+ .container3{
+    
+    display: flex;
+    width: 100%;
+    height: 140px;
+    align-items: center;
+    background:orangered;
+    
+ }
+
+ .container3 span{
+    margin: auto;
+    padding: 15px 15px;
+    justify-content: center;
+    font-size: 29px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #fff;
+    background-color:#2d2d2d;
+ }
+
+ .container3 a{
+    margin: auto;
+    padding: 5px 5px;
+    display: flex;
+    align-items:center;
+    justify-items:baseline;
+    
+ }
+
+ .botones .btn{
+    margin: 10px;
+    margin-left: 124px;
+    text-decoration: none;
+    width: 120px;
+    height:35px;
+    border-radius: 50px;
+    border-width: 0.01px;
+    border-color: #2d2d2d;
+    transition: all 0.5s;
+    position:relative;
+    cursor: pointer;
+ }
+
+ .botones .btn:hover{
+    background-color:dimgrey;
+    color: #fff;
+ }
+ .botones a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .botones a:hover{
+    color: #fff;
+ }
+ 
+ .porquepwc{
+    margin: 50px;
+ }
+
+ .porquepwc .titulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ .porquepwc .pefil{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:wavy;
+    
+ }
+ .b2 {
+    display: none;
+ }
+ .b3{
+    display: none;
+ }
+ .b4{
+    display: none;
+ }
+
+
+.b1 .p{
+    text-align:left;
+    margin: 100px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 13px;
+}
+.b1 img{
+    width: 300px;
+    height: 400px;
+    
+
+}
+.b1 h3{
+    justify-content: center;
+    margin: 55px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.b1 h1{
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #2d2d2d;
+    height: 3px;
+}
+
+/* codigo para hacer responsive el campo de busqueda*/
+.b2 .card5{
+    margin-left: 400px;
+    width: 1000px;
+    height: 600px;
+    background-color: gainsboro;
+    cursor:default;
+}
+.b2 h3{
+    justify-content: center;
+    margin: 55px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.b2 h1{
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #2d2d2d;
+    height: 3px;
+}
+.b3 h3{
+    justify-content: center;
+    margin: 55px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.b3 h1{
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+
+.b3 .titulo1{
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.b3 .p{
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+.b3 img{
+    width: 300px;
+    margin:12px;
+}
+
+.buscar{
+    margin: 15px;
+}
+
+.list_item2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
+.b4{
+    margin-left: 340px;
+    margin-right: 340px;
+}
+.b4 img{
+    margin-top: 120px;
+
+}
+.b4 h1{
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.b4 p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.tabla img{
+    width: 200px;
+    margin:20px;
+    
+}
+.tabla td{
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content:safe;
+}
+
+.card-title{
+    font-family:monospace;
+    margin-left: 20px;
+    color: chocolate;
+    font-size: 25px;
+    
+}
+.bt{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 40px;
+    width: 235px;
+    height: 40px;
+    color:#2d2d2d;
+    background-color:#fff;
+    border-width: 0.02px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bt:hover{
+    color:#fff;
+    background-color:chocolate;
+}
+.card-text{
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p img{
+    width: 350px;
+    margin: 30px;
+}
+
+.b3{
+    margin: 130px;
+}
+.form{
+    margin-top: -80px;
+    margin-left: 300px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.form select{
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form .option{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.form input{
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background-color: chocolate;
+    border-width: 0.02px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    
+}
+ .container4{
+  margin: auto;
+
+ }
+ 
+ .card-wrapper4{
+    width: 100%;
+    display: flex;
+   align-items: center;
+    list-style: none;   
+    justify-items: center;
+     margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-size: cover;
+ }
+ .card4{
+    width: 390px;
+    height: 370px;
+    margin: 70px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff ;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:pointer;
+    transition: all 400ms ease;
+    padding: 0%;
+ }
+ .card5{
+    width: 900px;
+    height: 453px;
+    margin: 70px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff ;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:pointer;
+    transition: all 400ms ease;
+    padding: 0%;
+ }
+
+ .container5{
+    background:#424949;
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #fff;
+    margin: auto;
+ }
+.container5 h2{
+    margin: 12px;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.container5{
+    height: 240px;
+     background:#424949;
+     font-size: 13px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif ;
+     color: #fff;
+     margin: auto;
+     
+     
+  }
+ .container5 h2{
+     margin: 12px;
+     display: inline;
+     justify-content: space-evenly;
+     margin-left: 100px;
+     margin-right: 100px;
+     
+ }
+ .container5 h3{
+    margin: 12px;
+    
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    
+ }
+ .container5 a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 100px;
+     margin-right: 100px;
+     
+ 
+ }
+ .container5 p{
+    margin-left: 100px;
+     margin-right: 100px;
+ }
+ 
+

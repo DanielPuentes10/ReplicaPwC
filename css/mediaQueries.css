@@ -1,0 +1,144 @@
+@media (max-width:600px){
+    
+    .menu ul{
+        flex-direction: column;
+        margin: auto;
+    
+    }
+    
+    .card-wrapper{
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .card-wrapper2{
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .gallery{
+        width: 300px;
+        height: 250px;
+        justify-items: center;
+        display: flex;
+    }
+    .navigation-manual{
+        margin-left: -250px;
+        position: absolute;
+        width: 800px;
+        margin-top: 220px;
+        display: flex;
+        justify-content: center;
+        }
+    .manual-btn{
+        border:1px solid #0E4D45;
+        padding:5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    
+    }
+    .manual-btn:not(:last-child){
+        margin-right: 40px;
+    }
+    .manual-btn:hover{
+        background:#CACFD2;
+    }
+    
+    #radio1:checked ~ .first{
+        margin-left: 0;
+    
+    }
+    
+    #radio2:checked ~ .first{
+        margin-left: -20%;
+        
+    }
+    #radio3:checked ~ .first{
+        margin-left: -40%;
+        
+    }
+    #radio4:checked ~ .first{
+        margin-left: -60%;
+        
+    }
+    .card-wrapper2 iframe{
+        width: 300px;
+        height: 200px;
+    }
+    .container3{
+        margin: auto;
+    }
+    .container3 span{
+        margin: auto;
+    }
+    .container3 a{
+        margin: auto;
+    }
+    .card-wrapper4{
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .card4{
+
+        flex-direction: column;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+    .card5{
+        width: 400px;
+        height: 270px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .botones .btn{
+        margin: 10px;
+        margin-left: 124px;
+        text-decoration: none;
+        width: 110px;
+        height:35px;
+        border-radius: 50px;
+        border-width: 0.01px;
+        border-color: #2d2d2d;
+        transition: all 0.5s;
+        position:relative;
+        cursor: pointer;
+        font-size: 11px;
+     }
+     .b2 .card5{
+        margin-left: 20px;
+        width: 430px;
+        height: 900px;
+        background-color: gainsboro;
+        cursor:default;
+    }
+    .b2 h3{
+        justify-content: center;
+        margin: 55px;
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .b2 h1{
+        align-items: center;
+        margin-left: -300px;
+        margin-right: -300px;
+        background: #2d2d2d;
+        height: 3px;
+    }
+     .form select{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 11px;
+    }
+    .form_option{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: -300px;
+        margin-right: -300px;
+        font-size: 11px;
+    }
+    
+}
+
